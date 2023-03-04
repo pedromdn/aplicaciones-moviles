@@ -44,7 +44,19 @@ body {
   width: 100%;
   flex-direction: column;
 }
-
+.page__body .title > h1 {
+  font-family: var(--font-serif), "Noto Serif", Georgia, serif;
+  line-height: 1.15;
+  font-weight: 700;
+  font-size: 3em;
+}
+.page__body .content {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  line-height: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 input {
   height: 40px;
   border: none;
@@ -73,6 +85,7 @@ button {
 
 .result-list {
   position: absolute;
+  width: 100%;
   top: 200px;
   display: flex;
   max-height: 200px;
@@ -80,6 +93,7 @@ button {
   overflow-y: auto;
   z-index: 10;
   background-color: white;
+  width: 50vw;
 }
 
 .result-card {
